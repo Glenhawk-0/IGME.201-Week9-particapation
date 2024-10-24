@@ -3,7 +3,7 @@
 public class Adventurer
 {
     public string name;
-    public int experience = 0;
+    public int exp = 0;
 
 
     public Adventurer()
@@ -30,7 +30,7 @@ public class Adventurer
     private void Reset()
     {
         this.name = "Not assigned";
-        this.experience = 0;
+        this.exp = 0;
     }
 
 }

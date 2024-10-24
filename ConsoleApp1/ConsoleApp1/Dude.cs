@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
 
         public string name;
-        public int experience = 0;
+        public int exp = 0;
 
 
         public Dude(string name)
@@ -26,7 +26,7 @@ namespace ConsoleApp1
         private void Reset()
         {
             this.name = "Not assigned";
-            this.experience = 0;
+            this.exp = 0;
         }
 
 
